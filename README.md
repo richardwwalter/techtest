@@ -37,11 +37,13 @@ I haven't used lombok in the past so again there may be some optimisations that 
 Introducing some other dependencies would improve and simplify the code 
 
 ### Gradle
-gradlew help
-gradlew tasks
-gradlew clean build
-gradlew install
-gradlew bootRun
+#### gradlew help
+#### gradlew tasks
+#### gradlew clean build
+#### gradlew install
+#### gradlew bootRun
+#### gradlew -t classes     will automatically recompile changes as we edit the code
+#### gradlew -t test        with automatically recompile and run all the tests as we edit the code
 
 ### Docker
 
